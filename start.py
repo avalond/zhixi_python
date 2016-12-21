@@ -16,8 +16,7 @@ def index(name=None):
 def shopping():
     food=["chiness","chsss","kdjdjjd","kskskskksk"]
     ##return render_template("shoping.html",food=food)
-    ## return json
-    return jsonify("food",food[0])
+    return jsonify("food",food[1],food[2])
 
 if __name__ == '__main__':
     app.debug = True
